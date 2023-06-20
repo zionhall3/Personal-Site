@@ -13,6 +13,11 @@ h1{
     color: #66BFBF;
     line-height: 200%;
 }
+
+.carousel-item{
+    text-align: center;
+}
+
 .sub-head{
     font-family: 'Roboto Slab', serif;
 }
@@ -23,13 +28,13 @@ h1{
 }
 
 .skill-text{
-    text-align: left;
+    text-align: center;
     line-height: 200%;
     font-size: 130%;
 }
 
 .skill-image{
-    float: left;
+    float: center;
     margin-right: 30px;
 }
 
@@ -67,6 +72,7 @@ div{
     margin: auto;
     background-color: #22a5a5;
     padding: 50px 0 20px;
+    align-self: center;
 }
 
 .intro{
@@ -120,6 +126,10 @@ margin: 20px auto;
     margin: 0;
 }
 
+.portfolio-items{
+    margin-top: 5%;
+}
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -160,3 +170,8 @@ margin: 20px auto;
     color: white;
     font-size: 140%;
  }
+
+ .carousel-item{
+    margin: 15px 0;
+    padding: 7% 15%;
+}
