@@ -127,7 +127,11 @@ margin: 20px auto;
 }
 
 .portfolio-items{
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+.portfolio-title{
+    margin-bottom: 5%;
 }
 
 .btn {
