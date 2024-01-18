@@ -56,6 +56,37 @@ jQuery(document).ready(function($){
 
 });
 
+function myGameBlogMore() {
+	var dots = document.getElementById("GameBlogDots");
+	var moreText = document.getElementById("GameBlogMore");
+	var btnText = document.getElementById("myGameBlogBtn");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  btnText.innerHTML = "Read more";
+	  moreText.style.display = "none";
+	} else {
+	  dots.style.display = "none";
+	  btnText.innerHTML = "Read less";
+	  moreText.style.display = "inline";
+	}
+  }
+
+  function myYTMP3more() {
+	var dots = document.getElementById("YTMP3dots");
+	var moreText = document.getElementById("YTMP3more");
+	var btnText = document.getElementById("myYTMP3btn");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  btnText.innerHTML = "Read more";
+	  moreText.style.display = "none";
+	} else {
+	  dots.style.display = "none";
+	  btnText.innerHTML = "Read less";
+	  moreText.style.display = "inline";
+	}
+  }
 
 // MAIN NAVIGATION
 

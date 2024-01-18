@@ -352,8 +352,7 @@ hr {
   box-sizing: border-box;
   }
   .column {
-  float: left;
-  width: 33%;
+  width: 75%;
   padding: 5px 5px;
   }
   .blog {margin: 0 -5px;}
@@ -420,6 +419,10 @@ hr {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   background-color: #f1f1f1;
   }
+
+  #YTMP3more {display: none;}
+
+  #GameBlogMore {display: none;}
 /* End Blog */
 
 /* START SOCIAL */

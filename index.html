@@ -272,22 +272,36 @@ https://templatemo.com/tm-464-ultra-profile
 
 	<!-- Start blog -->
 	<section>
-		<h2 class="tm-portfolio-title">My <strong>Coding</strong> Blog</h2>
-		<div class="col-md-6 col-sm-6">
-				<div class="card">
-				<img src="images\1 Kewt.png" height="400" width="400" style="image-rendering: pixelated;" />
-				<h3>I published my first video game!</h3>
-				<p>It was especially frustrating because there was a bug where I screwed up some global booleans but that fix was easier than I thought. You can play the game <a href="https://monstercollectorfandev.itch.io/kewt-the-newt">here</a>.</p>
+		<div class="container">
+			<h2 class="tm-portfolio-title">My <strong>Coding</strong> Blog</h2>
+			<div>
+				<div class="col-md-6 col-sm-6">
+						<div class="card">
+						<img src="images\1 Kewt.png" height="400" width="400" style="image-rendering: pixelated;" />
+						<h3>I published my first video game!</h3>
+						<p>Today I managed to fix a frustrating bug for the game I am working on.
+	
+							It was making it so the player was invincible on retries.
+							
+							I FINALLY FIXED IT.<span id="GameBlogDots">...</span><span id="GameBlogMore">After much pondering I found what I was doing wrong.
+							
+								I had it so the game was using a global boolean variable to see if the player was hurt. Because the game was IMMEDIATELY switching scenes on the last life, the boolean was stuck on TRUE, so the game didn't detect any hits after that on a retry.
+								
+								So it was simply a matter of resetting the boolean to FALSE after changing the scene to the win or lose screen. . You can play the game <a href="https://monstercollectorfandev.itch.io/kewt-the-newt">here</a>.</span></p>
+						<button onclick="myGameBlogMore()" id="myGameBlogBtn">Read more</button>
+						</div>
+						</div>
 				</div>
-				</div>
+				<div class="col-md-6 col-sm-6">
+						<div class="card">
+						<img src="images\YT2MP3.png" height="400" width="400" style="image-rendering: pixelated;" />
+						<h3>Easy Python MP3 converter</h3>
+						<p>It took a bit of tinkering but I got the Python code to work. <span id="YTMP3dots">...</span><span id="YTMP3more">Copy and paste this <a href="docs\Python YouTube Playlist Downloader Base Code.txt" download="YT2MP3"> code block</a> that lets the user use Pycharm to  into Pycharm, install the imported modules and packages and then it will be able to download an entire YouTube playlist then convert them from mp4s to mp3s.</span></p>
+						<button onclick="myYTMP3more()" id="myYTMP3btn">Read more</button>
+						</div>
+						</div>
 		</div>
-		<div class="col-md-6 col-sm-6">
-				<div class="card">
-				<img src="images\YT2MP3.png" height="400" width="400" style="image-rendering: pixelated;" />
-				<h3>Easy Python MP3 converter</h3>
-				<p>It took some tinkering but I made a simple <a href="docs\Python YouTube Playlist Downloader Base Code.txt" download="YT2MP3"> code block</a> that lets the user use Pycharm to download an entire YouTube Playlist and convert all the MP4s to MP3s in minutes.</p>
-				</div>
-				</div>
+		</div>
 		</div>
 	</section>
 	<!-- End Blog -->
